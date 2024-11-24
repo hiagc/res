@@ -20,6 +20,7 @@ a {
 .top-buttom {
     color: #000000;
     background-color: #ffffff;
+    margin: 0 5px 0 5px;
 }
 
 mdui-top-app-bar-title {
