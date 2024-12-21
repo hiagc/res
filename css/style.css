@@ -19,7 +19,7 @@ a {
 }
 
 mdui-top-app-bar {
-    background-color: rgba(247, 247, 247, 0.1);
+    background-color: rgba(247, 247, 247, 0.8);
     backdrop-filter: blur(50px);
 }
 
