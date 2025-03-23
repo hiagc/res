@@ -136,7 +136,7 @@ mdui-top-app-bar-title {
 }
 
 .devices-version-card-detail-button mdui-button {
-    margin: 5px;    
+    margin: 5px;
     padding: 0;
     height: 32px;
     background-color: #2655FF;
@@ -180,6 +180,7 @@ mdui-top-app-bar-title {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1;
+    width: fit-content;
 }
 
 .mdui-prose .plan-title2 {
@@ -188,15 +189,20 @@ mdui-top-app-bar-title {
     margin-top: 12px;
     margin-bottom: 0;
     line-height: 1;
+    width: fit-content;
 }
 
 .mdui-prose .plan-device {
-    color: #2655FF;
+    background: linear-gradient(to right, rgb(48, 153, 255) 0%, rgb(141, 133, 255) 63%, rgb(79, 76, 255) 100%) text;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
     font-weight: 550;
     margin-top: 32px;
     margin-bottom: 0;
     font-size: 2em;
     line-height: 1;
+    width: fit-content;
 }
 
 .mdui-prose .plan-version {
@@ -204,6 +210,7 @@ mdui-top-app-bar-title {
     margin-bottom: 1;
     font-size: 1.5em;
     line-height: 1;
+    width: fit-content;
 }
 
 .footer {
@@ -257,5 +264,5 @@ mdui-collapse {
 }
 
 .get-os-firmware-card .homecard-description {
-    color: rgba(0, 0, 0);
+    color: #4f0000;
 }
