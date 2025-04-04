@@ -266,3 +266,14 @@ mdui-collapse {
 .get-os-firmware-card .homecard-description {
     color: #4f0000;
 }
+
+.version-tips {
+    background: #fe3e291a;
+    --mdui-color-on-surface-light: 254,62,41;
+    margin: 10px;
+    border-radius: 16px;
+}
+
+.version-tips p {
+    color: #fe3e29;
+}
