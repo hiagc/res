@@ -131,11 +131,15 @@ mdui-top-app-bar-title {
     backdrop-filter: blur(50px);
 }
 
-.devices-version-card-detail-button {
-    margin-left: 3.0rem
+.devices-version-card-detail-download-button {
+    margin-left: 3.0rem;
 }
 
-.devices-version-card-detail-button mdui-button {
+.devices-version-card-detail-button {
+    margin-left: 0;
+}
+
+.devices-version-card-detail-button mdui-button,.devices-version-card-detail-download-button mdui-button {
     margin: 5px;
     padding: 0;
     height: 32px;
@@ -276,4 +280,8 @@ mdui-collapse {
 
 .version-tips p {
     color: #fe3e29;
+}
+
+.mdui-prose h1 {
+    margin-bottom: 30px;
 }
