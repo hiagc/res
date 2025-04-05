@@ -139,7 +139,8 @@ mdui-top-app-bar-title {
     margin-left: 0;
 }
 
-.devices-version-card-detail-button mdui-button,.devices-version-card-detail-download-button mdui-button {
+.devices-version-card-detail-button mdui-button,
+.devices-version-card-detail-download-button mdui-button {
     margin: 5px;
     padding: 0;
     height: 32px;
@@ -194,6 +195,17 @@ mdui-top-app-bar-title {
     margin-bottom: 0;
     line-height: 1;
     width: fit-content;
+}
+
+.mdui-prose .plan-notice {
+    margin-top: 12px;
+    line-height: 1;
+}
+
+.mdui-prose .plan-notice img,.mdui-prose .plan-notice span {
+    margin-bottom: 0;
+    vertical-align: middle;
+    color: rgb(0, 0, 0, 0.6);
 }
 
 .mdui-prose .plan-device {
@@ -273,7 +285,7 @@ mdui-collapse {
 
 .version-tips {
     background: #fe3e291a;
-    --mdui-color-on-surface-light: 254,62,41;
+    --mdui-color-on-surface-light: 254, 62, 41;
     margin: 10px;
     border-radius: 16px;
 }
