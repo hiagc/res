@@ -210,8 +210,8 @@ mdui-top-app-bar-title {
 }
 
 .mdui-prose .plan-version {
-    margin-top: 16px;
-    margin-bottom: 1;
+    margin-top: 50px;
+    margin-bottom: 16px;
     font-size: 1.5em;
     line-height: 1;
     width: fit-content;
